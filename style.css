@@ -57,7 +57,7 @@ body {
     margin: 5px 0;
 }
 
-.top-banner-content a {
+.button {
     display: block;
     width: 160px;
     padding: 16px 16px;
@@ -71,3 +71,94 @@ body {
     font-size: 20px;
     font-weight: 300;
 }
+
+
+/* 2nd Section */
+
+.second-section {
+    width: 100%;
+    height: 669px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-today-content {
+    width: 826px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-today-content h1 {
+    /* display: block; */
+    /* width: 100%; */
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.donate-today-content p {
+    display: block;
+    width: 691px;
+
+    margin-bottom: 50px;
+
+    font-size: 18px;
+
+    color: #707070;
+}
+
+.donate-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-cards-items {
+    width: 135px;
+    height: 123px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    background-color: #FAFAFA;
+
+    font-size: 30px;
+    font-weight: 700;
+
+    color: #707070;
+}
+
+.donate-today-content .input-wrapper {
+    width: 100%;
+}
+
+.donate-today-content input {
+    width: 80%;
+    height: 50px;
+
+    margin-top: 50px;
+
+    border: none;
+    border-bottom: 2px solid #DADADA;
+
+    text-align: center;
+
+    color: #B3B3B3;
+    font-weight: 400;
+    font-size: 18px;
+}
+
