@@ -162,3 +162,110 @@ body {
     font-size: 18px;
 }
 
+/* 3rd section  */
+
+.third-section {
+    width: 100%;
+    height: 669px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-plan-content {
+    width: 1700px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-plan-content h1 {
+    /* display: block; */
+    /* width: 100%; */
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.donate-plan-content p {
+    display: block;
+    width: 691px;
+
+    margin-bottom: 50px;
+
+    font-size: 18px;
+
+    color: #707070;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-cards-items {
+    width: 360px;
+    height: 352px;
+
+    margin-left: 15px;
+    margin-right: 15px;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+}
+
+.plan-cards-items .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+}
+
+.plan-cards-items p {
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+.food {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.education {
+    background: #FFF4D6;
+}
+
+/* 4th Section  */
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contribute-content {
+    width: 1200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
