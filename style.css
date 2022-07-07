@@ -143,6 +143,13 @@ body {
     color: #707070;
 }
 
+#selected-card {
+    color: #FF5959;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
 .donate-today-content .input-wrapper {
     width: 100%;
 }
@@ -303,6 +310,8 @@ body {
 
 .update-content {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .update-content h1 {
@@ -317,7 +326,7 @@ body {
     color: #707070;
 }
 
-.input-wrapper {
+.fifth-section .input-wrapper {
     width: 100%;
     height: 200px;
 
@@ -328,7 +337,7 @@ body {
     background: #FFF4D6;
 }
 
-.input-content {
+.fifth-section .input-content {
     height: 48px;
 
     display: flex;
@@ -360,4 +369,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* footer  */
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+
+    color: white;
+}
+
+footer h1 {
+    color: orangered;
 }
