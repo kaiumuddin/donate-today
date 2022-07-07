@@ -230,8 +230,10 @@ body {
 
     border-radius: 5px;
 
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: start;
 
     text-align: left;
 }
@@ -249,15 +251,15 @@ body {
     color: #707070;
 }
 
-.food {
+#food {
     background: rgba(79, 157, 166, 0.1);
 }
 
-.shelter {
+#shelter {
     background: rgba(255, 89, 89, 0.1);
 }
 
-.education {
+#education {
     background: #FFF4D6;
 }
 
